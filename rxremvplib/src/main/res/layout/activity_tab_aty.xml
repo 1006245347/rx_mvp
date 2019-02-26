@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@android:id/tabs"
+            android:background="#bebcbc"></View>
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:showDividers="none"></TabWidget>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--<fragment-->
+                <!--android:id="@+id/tabA"-->
+                <!--android:name="jason.com.rxremvplib.demo.test.FragmentA"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--tools:layout="@layout/fragment_layout"></fragment>-->
+
+            <!--<fragment-->
+                <!--android:id="@+id/tabB"-->
+                <!--android:name="jason.com.rxremvplib.demo.test.FragmentB"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--tools:layout="@layout/fragment_layout"></fragment>-->
+
+            <!--<fragment-->
+                <!--android:id="@+id/tabC"-->
+                <!--android:name="jason.com.rxremvplib.demo.test.FragmentC"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--tools:layout="@layout/fragment_layout"></fragment>-->
+        </FrameLayout>
+    </RelativeLayout>
+</TabHost>

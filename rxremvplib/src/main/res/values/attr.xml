@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="DYLoadingView">
+        <attr name="radius1" format="dimension"/>
+        <attr name="radius2" format="dimension"/>
+        <attr name="rtlScale" format="float"/>
+        <attr name="ltrScale" format="float"/>
+        <attr name="color1" format="color"/>
+        <attr name="color2" format="color"/>
+        <attr name="mixColor" format="color"/>
+        <attr name="duration" format="integer"/>
+        <attr name="pauseDuration" format="integer"/>
+        <attr name="gap" format="dimension"/>
+        <attr name="scaleStartFraction" format="float"/>
+        <attr name="scaleEndFraction" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="searchedit">
+        <attr name="imagewidth" format="dimension" />
+        <attr name="txtSize" format="dimension" />
+        <attr name="txtColor" format="color" />
+        <attr name="txtContent" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="CharIndexView">
+        <!-- 	banner背影色  	 -->
+        <!-- 索引字大小 -->
+        <attr name="indexTextSize" format="dimension"/>
+        <!-- 字颜色 -->
+        <attr name="charTextColor" format="color"/>
+        <!-- 索引字颜色 -->
+        <attr name="indexTextColor" format="color"/>
+    </declare-styleable>
+</resources>

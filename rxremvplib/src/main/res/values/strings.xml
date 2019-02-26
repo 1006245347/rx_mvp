@@ -1,0 +1,3 @@
+<resources>
+    <string name="input_limit_warning">字数限制%1$d以内!</string>
+</resources>

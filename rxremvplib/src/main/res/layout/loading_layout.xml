@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="110dp"
+    android:layout_height="110dp"
+    android:gravity="center"
+    android:orientation="vertical">
+    //android:background="@drawable/load_bg"
+    <!--用于改变圆圈的颜色-->
+    <ProgressBar
+        android:id="@+id/loading_pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="@color/color_basic"
+        android:indeterminateTintMode="src_atop"
+        android:visibility="gone" />
+
+    <jason.com.rxremvplib.widget.DYLoadingView
+        android:id="@+id/loading_dot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/loading_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="正在加载..."
+        android:textSize="16sp" />
+</LinearLayout>
