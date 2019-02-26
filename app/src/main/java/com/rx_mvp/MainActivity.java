@@ -40,6 +40,7 @@ public class MainActivity extends BaseActivity2 {
 //        floatStatusBar();
 
         BuglyLog.v("TAG", "MAIN_onCreate>>>");
+        System.out.println("test_github_code1");
     }
 
     /*@Override //这种事爱奇艺视频播放时横屏沉浸式效果
